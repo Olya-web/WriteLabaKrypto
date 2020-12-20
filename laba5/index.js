@@ -11,7 +11,7 @@ const isSimple = (number, started = 1) => {
     else return number;
 };
 
-let n = 91;
+let n = 187;
 //
 for (let index = 0; index <= n; index++) {
     for (let j = 0; j <= n; j++) {
@@ -33,13 +33,13 @@ const maxCompareDivider = (number, number2) => {
     return maxDivider;
 };
 
-console.log("maxDivider 15 and 9 =", maxCompareDivider(15, 9));
+console.log("maxDivider 15 and 20 =", maxCompareDivider(15, 20));
 
 console.log("Задание 3");
 // task 3
 (() => {
-    for (let index = 0; index < 8 * 23; index++) {
-        if ((8 * index) % 23 === 1) {
+    for (let index = 0; index < 2 * 15; index++) {
+        if ((2 * index) % 15 === 1) {
             console.log("inversion =", index);
             return;
         }
@@ -63,4 +63,4 @@ for (let index = 1; index < minDivide.a * minDivide.b; index++) {
 console.log("Задание 5");
 
 // task 5
-console.log("is simple 31027 ", !!isSimple(31027, 2));
+console.log("is simple 69331 ", !!isSimple(69331, 2));
