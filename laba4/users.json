@@ -1,0 +1,14 @@
+[
+    {
+        "login": "chlen",
+        "hash": "$2b$10$1JPfm4F8jdXfAe20DLci5eM8YlVVp29QpJ2Es8IczxnJOvl9KCOMy"
+    },
+    {
+        "login": "test",
+        "hash": "$2b$10$PeiDHr3aeEw.aC4L.xf/fekMA5Lxy2w3ym0Grz9QBXhQqibuRp7aK"
+    },
+    {
+        "login": "test2",
+        "hash": "$2b$10$0iH2TE1.bk0F6FOPpw9yHOi8L7QgtGMxtHHNVmlhR8P3jh0Pulh9W"
+    }
+]
